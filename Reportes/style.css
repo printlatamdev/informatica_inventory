@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.report-container {
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.header-images {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-image {
+    max-height: 100px;
+    margin-left: 0;
+}
+
+.right-image {
+    max-height: 100px;
+    margin-right: 0;
+}
+
+header h1 {
+    color: #007bff;
+    font-size: 2em;
+    margin: 0;
+}
+
+header h2 {
+    color: #0056b3;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+header h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin: 0;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.signatures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.signature {
+    width: 45%;
+    text-align: center;
+}
+
+.signature p {
+    margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+    .report-container {
+        width: 95%;
+    }
+
+    .signatures {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .signature {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+

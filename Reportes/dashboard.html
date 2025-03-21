@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Equipos</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container_1">
+        <h1>Dashboard de Equipos</h1>
+        <canvas id="equiposChart"></canvas>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            fetch('get_data.php')
+                .then(response => response.json())
+                .then(data => {
+                    let labels = data.map(item => item.tipo_equipo);
+                    let quantities = data.map(item => item.cantidad);
+
+                    let ctx = document.getElementById('equiposChart').getContext('2d');
+                    new Chart(ctx, {
+                        type: 'pie',
+                        data: {
+                            labels: labels,
+                            datasets: [{
+                                label: 'Cantidad de Equipos',
+                                data: quantities,
+                                backgroundColor: [
+                                    '#007bff',
+                                    '#dc3545',
+                                    '#ffc107',
+                                    '#28a745',
+                                    '#17a2b8',
+                                    '#6f42c1',
+                                    '#fd7e14'
+                                ],
+                                borderColor: '#fff',
+                                borderWidth: 1
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            plugins: {
+                                legend: {
+                                    position: 'top',
+                                },
+                                tooltip: {
+                                    callbacks: {
+                                        label: function(context) {
+                                            let label = context.label || '';
+                                            if (label) {
+                                                label += ': ';
+                                            }
+                                            if (context.parsed !== null) {
+                                                label += context.parsed;
+                                            }
+                                            return label;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    });
+                })
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap');
+
+body {
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin: 20px auto;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Espacio entre el logo y el texto */
+}
+
+.logo {
+    width: 100px; /* Ajusta el tamaño del logo según tus necesidades */
+    height: auto;
+}
+
+h1 {
+    color: #8a8787;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    font-size: 1.5em;
+    color: #8a8787;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    align-items: center; /* Centra las imágenes verticalmente */
+    margin-bottom: 20px;
+}
+
+.credit-image {
+    max-width: 50%; /* Establece un máximo del 50% del ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #8a8787;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #8a8787;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 200px;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    background-color: #8a8787;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    .image-container {
+        flex-direction: column;
+    }
+
+    .credit-image {
+        width: 45%;
+        margin: 10px auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .dropdown-content {
+        position: relative;
+        min-width: 100%;
+    }
+
+    .board-container {
+        flex-direction: column;
+    }
+
+    .list-container, .chart-container {
+        width: 100%;
+    }
+}
+
+.board-container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex-grow: 1; /* Added to ensure the board-container takes available space */
+}
+
+.list-container, .chart-container {
+    padding: 20px;
+}
+
+.list-container {
+    width: 30%;
+    border-right: 1px solid #ddd;
+}
+
+.chart-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #8a8787;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+

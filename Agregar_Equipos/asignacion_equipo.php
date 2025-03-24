@@ -15,6 +15,7 @@
                 <option value="Laptop">Laptop</option>
                 <option value="Tablet">Tablet</option>
                 <option value="Telefono">Telefonos Red</option>
+                <option value="Vinetas">Impresora de viñetas</option>
                 <option value="Impresora">Impresora</option>
                 <option value="Fotocopiadora">Fotocopiadora</option>
                 <option value="Gabinete">Gabinetes Red</option>

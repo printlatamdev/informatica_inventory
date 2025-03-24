@@ -76,7 +76,7 @@ if ($equipo_id > 0) {
 
                 if ($stmt->execute()) {
                     echo "<p>Equipo descargado correctamente.</p>";
-                    header("Location: http://localhost/HBARTOLO/Control_de_Equipos/equipos_impresoras.php");
+                    header("Location: http://localhost/HBARTOLO/Control_de_Equipos/equipos_vinetas.php");
                     exit;
                 } else {
                     echo "<p>Error al eliminar el equipo de la base de datos.</p>";
@@ -212,7 +212,7 @@ if ($equipo_id > 0) {
             </tr>
         </table>
         <div class="button-container">
-            <a onClick="history.back();" class="button back-button">Volver</a>
+            <a onClik="history.back();" class="button back-button">Volver</a>
         </div>
     </div>
 </body>

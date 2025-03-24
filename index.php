@@ -31,6 +31,7 @@
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_escritorio.php">Escritorio</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_laptop.php">Laptops</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_tablet.php">Tablet</a>
+                    <a href="../HBARTOLO/Control_de_Equipos/equipos_vinetas.php">Impresoras de viñetas</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_impresoras.php">Impresoras</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_fotocopiadora.php">Fotocopiadoras</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_telefono.php">Telefonos</a>

@@ -20,10 +20,16 @@
                 <option value="Fotocopiadora">Fotocopiadora</option>
                 <option value="Gabinete">Gabinetes Red</option>
                 <option value="Monitor">Monitor</option>
+                <option value="Mouse">Mouse</option>
                 <option value="Teclado">Teclado</option>
                 <option value="Ap">AP</option>
+                <option value="Servidor">Servidor</option>
+                <option value="Nas">Nas</option>
                 <option value="Switch">Switch</option>
                 <option value="Patchpanel">Patch Panel</option>
+                <option value="Dvr">DVR</option>
+                <option value="Nvr">NVR</option>
+                <option value="Camaras">Camaras</option>
                 <option value="Ups">UPS</option>
                 <option value="Bocina">Bocinas</option>
                 <option value="Proyector">Proyectores</option>
@@ -51,7 +57,7 @@
                 <option value="__">SELECCIONE</option>
                 <option value="IT">IT</option>
                 <option value="ARQUITECTO">Arquitecto</option>
-                <option value="RECURSOS HUMANOS">RECURSOS HUMANOS</option>
+                <option value="ADMINISTRACION">ADMINISTRACION</option>
                 <option value="COMPRAS">COMPRAS</option>
                 <option value="PLANIFICACION">PLANIFICACION</option>
                 <option value="CONTABILIDAD">CONTABILIDAD</option>
@@ -64,6 +70,8 @@
                 <option value="IMPRECION">IMPRECION</option>
                 <option value="CORTE">CORTE</option>
                 <option value="DISENO">DISEÑO</option>
+                <option value="BODEGA">BODEGA</option>
+                <option value="CAMPOS">CAMPOS PENATE</option>
             </select><br><br>
 
             <label for="ip">IP:</label>

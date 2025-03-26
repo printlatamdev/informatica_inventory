@@ -74,7 +74,7 @@ $totalPages = ceil($totalRows / $limit);
 
 $sql = "SELECT id, tipo_equipo, nombre_host, num_serie, num_inventario, encargado, area_asignada, ip, licencia_windows, licencia_office, antivirus, comentario FROM equipo";
 if (!empty($searchTerm)) {
-    $sql .= " WHERE area_asignada LIKE '%$searchTerm%' OR id LIKE '%$searchTerm%' OR num_serie LIKE '%$searchTerm%' OR tipo_equipo LIKE '%$searchTerm%' OR num_inventario LIKE '%$searchTerm%' OR ip LIKE '%$searchTerm%'";
+    $sql .= " WHERE area_asignada LIKE '%$searchTerm%' OR id LIKE '%$searchTerm%' OR num_serie LIKE '%$searchTerm%' OR tipo_equipo LIKE '%$searchTerm%' OR num_inventario LIKE '%$searchTerm%' OR ip LIKE '%$searchTerm%' OR area_asignada LIKE '%$searchTerm%'";
 }
 $sql .= " LIMIT $limit OFFSET $offset";
 $result = $conn->query($sql);
@@ -85,12 +85,12 @@ $result = $conn->query($sql);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Áreas del Hospital San Bartolo</title>
+    <title>Áreas de Color Digital</title>
     <link rel="stylesheet" href="areas_equipos.css">
 </head>
 <body>
     <div class="container">
-        <h1>Áreas del Hospital San Bartolo</h1>
+        <h1>Áreas de Color Digital</h1>
         <form class="search-form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
             <label for="searchTerm">Buscar:</label>
             <input type="text" id="searchTerm" name="searchTerm" value="<?php echo htmlspecialchars($searchTerm); ?>">

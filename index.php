@@ -37,8 +37,14 @@
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_telefono.php">Telefonos</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_gabinete.php">Gabinetes de Red</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_monitor.php">Monitores</a>
+                    <a href="../HBARTOLO/Control_de_Equipos/equipos_mouse.php">Mouse</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_teclado.php">Teclados</a>
+                    <a href="../HBARTOLO/Control_de_Equipos/equipos_nas.php">NAS</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_ap.php">AP'S</a>
+                    <a href="../HBARTOLO/Control_de_Equipos/equipos_servidores.php">Servidores</a>
+                    <a href="../HBARTOLO/Control_de_Equipos/equipos_dvr.php">DVR</a>
+                    <a href="../HBARTOLO/Control_de_Equipos/equipos_nvr.php">NVR</a>
+                    <a href="../HBARTOLO/Control_de_Equipos/equipos_camaras.php">Camaras</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_switch.php">Switch</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_patchpanel.php">Patch Panel</a>
                     <a href="../HBARTOLO/Control_de_Equipos/equipos_ups.php">UPS</a>

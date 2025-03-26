@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipos de Impresoras de viñetas - COLOR DIGITAL</title>
+    <title>Equipos Camaras</title>
     <link rel="stylesheet" href="styles_equipos.css">
 </head>
 <body>
     <div class="container">
-        <h1>EQUIPOS IMPRESORAS DE VIÑETAS DE COLOR DIGITAL</h1>
-
+        <h1>EQUIPOS CAMARA DE COLOR DIGITAL</h1>
+        
         <form method="GET" class="search-form">
             <input type="text" name="search" placeholder="Buscar...">
             <button type="submit">Buscar</button>
@@ -32,7 +32,7 @@
                 $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
                 $offset = ($page - 1) * $limit;
 
-                $total_query = "SELECT COUNT(*) as total FROM equipo WHERE tipo_equipo='Vinetas' 
+                $total_query = "SELECT COUNT(*) as total FROM equipo WHERE tipo_equipo='Camaras' 
                                 AND (tipo_equipo LIKE '%$search%' OR 
                                      nombre_host LIKE '%$search%' OR 
                                      num_serie LIKE '%$search%' OR 
@@ -44,7 +44,7 @@
                 $total_rows = $total_result->fetch_assoc()['total'];
                 $total_pages = ceil($total_rows / $limit);
 
-                $var_consulta = "SELECT * FROM equipo WHERE tipo_equipo='Vinetas' 
+                $var_consulta = "SELECT * FROM equipo WHERE tipo_equipo='Camaras' 
                                  AND (tipo_equipo LIKE '%$search%' OR 
                                       nombre_host LIKE '%$search%' OR 
                                       num_serie LIKE '%$search%' OR 
@@ -80,7 +80,7 @@
                               <td>{$var_fila['encargado']}</td>
                               <td>{$var_fila['area_asignada']}</td>
                               <td>{$var_fila['ip']}</td>
-                              <td><a href='manto_vinetas.php?id={$var_fila['id']}' class='button maintenance-button'>Mantenimiento</a></td>
+                              <td><a href='manto_camaras.php?id={$var_fila['id']}' class='button maintenance-button'>Mantenimiento</a></td>
                               </tr>";
                     }
                     echo "</table></div>";

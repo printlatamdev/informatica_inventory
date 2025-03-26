@@ -11,9 +11,9 @@
     <div class="container">
         <header>
             <div class="header-content">
-                <img src="../HBARTOLO/imagenes/color.jpg" alt="Logo" class="logo">
+                <img src="imagenes/color.jpg" alt="Logo" class="logo">
                 <h1><span>SISTEMA IT Color Digital</span></h1>
-                <img src="../HBARTOLO/imagenes/color.jpg" alt="Logo" class="logo">
+                <img src="imagenes/color.jpg" alt="Logo" class="logo">
             </div>
         </header>
         <nav>
@@ -21,57 +21,57 @@
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Agregar Equipos</a>
                     <div class="dropdown-content">
-                        <a href="../HBARTOLO/Agregar_Equipos/asignacion_equipo.php">Area Asignado</a>
-                        <a href="../HBARTOLO/Agregar_Equipos/areas_equipos.php">Areas y Equipos</a>
+                        <a href="Agregar_Equipos/asignacion_equipo.php">Area Asignado</a>
+                        <a href="Agregar_Equipos/areas_equipos.php">Areas y Equipos</a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Mantenimientos Equipos</a>
                     <div class="dropdown-content">
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_escritorio.php">Escritorio</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_laptop.php">Laptops</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_tablet.php">Tablet</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_vinetas.php">Impresoras de viñetas</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_impresoras.php">Impresoras</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_fotocopiadora.php">Fotocopiadoras</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_telefono.php">Telefonos</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_gabinete.php">Gabinetes de Red</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_monitor.php">Monitores</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_mouse.php">Mouse</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_teclado.php">Teclados</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_nas.php">NAS</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_ap.php">AP'S</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_servidores.php">Servidores</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_dvr.php">DVR</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_nvr.php">NVR</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_camaras.php">Camaras</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_switch.php">Switch</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_patchpanel.php">Patch Panel</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_ups.php">UPS</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_bocinas.php">Bocinas</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_proyector.php">Proyectores</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_microfono.php">Microfonos</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_pantallas.php">Pantallas</a>
-                    <a href="../HBARTOLO/Control_de_Equipos/equipos_otro.php">Otros</a>
+                    <a href="Control_de_Equipos/equipos_escritorio.php">Escritorio</a>
+                    <a href="Control_de_Equipos/equipos_laptop.php">Laptops</a>
+                    <a href="Control_de_Equipos/equipos_tablet.php">Tablet</a>
+                    <a href="Control_de_Equipos/equipos_vinetas.php">Impresoras de viñetas</a>
+                    <a href="Control_de_Equipos/equipos_impresoras.php">Impresoras</a>
+                    <a href="Control_de_Equipos/equipos_fotocopiadora.php">Fotocopiadoras</a>
+                    <a href="Control_de_Equipos/equipos_telefono.php">Telefonos</a>
+                    <a href="Control_de_Equipos/equipos_gabinete.php">Gabinetes de Red</a>
+                    <a href="Control_de_Equipos/equipos_monitor.php">Monitores</a>
+                    <a href="Control_de_Equipos/equipos_mouse.php">Mouse</a>
+                    <a href="Control_de_Equipos/equipos_teclado.php">Teclados</a>
+                    <a href="Control_de_Equipos/equipos_nas.php">NAS</a>
+                    <a href="Control_de_Equipos/equipos_ap.php">AP'S</a>
+                    <a href="Control_de_Equipos/equipos_servidores.php">Servidores</a>
+                    <a href="Control_de_Equipos/equipos_dvr.php">DVR</a>
+                    <a href="Control_de_Equipos/equipos_nvr.php">NVR</a>
+                    <a href="Control_de_Equipos/equipos_camaras.php">Camaras</a>
+                    <a href="Control_de_Equipos/equipos_switch.php">Switch</a>
+                    <a href="Control_de_Equipos/equipos_patchpanel.php">Patch Panel</a>
+                    <a href="Control_de_Equipos/equipos_ups.php">UPS</a>
+                    <a href="Control_de_Equipos/equipos_bocinas.php">Bocinas</a>
+                    <a href="Control_de_Equipos/equipos_proyector.php">Proyectores</a>
+                    <a href="Control_de_Equipos/equipos_microfono.php">Microfonos</a>
+                    <a href="Control_de_Equipos/equipos_pantallas.php">Pantallas</a>
+                    <a href="Control_de_Equipos/equipos_otro.php">Otros</a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Administración</a>
                     <div class="dropdown-content">
-                        <a href="../HBARTOLO/administracion/descargos.php">Descargos</a>
+                        <a href="administracion/descargos.php">Descargos</a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropbtn">Reportes</a>
                     <div class="dropdown-content">
-                        <a href="../HBARTOLO/Reportes/reportes.php">Reportes</a>
-                        <!-- <a href="../HBARTOLO/Reportes/dashboard.html">Dashboard</a> -->
+                        <a href="Reportes/reportes.php">Reportes</a>
+                        <!-- <a href="Reportes/dashboard.html">Dashboard</a> -->
                     </div>
                 </li>
               <!--  <li class="dropdown"> 
                     <a href="#" class="dropbtn">About</a>
                     <div class="dropdown-content">
-                        <a href="../HBARTOLO/creditos.html">Sistema</a>
+                        <a href="creditos.html">Sistema</a>
                     </div>
                 </li>-->
             </ul>

@@ -1,7 +1,7 @@
 <?php
 // Conexión a la base de datos
-$cons_usuario = "root";
-$cons_contra = "";
+$cons_usuario = "admin";
+$cons_contra = "AG784512";
 $cons_base_datos = "asignacion_equipos";
 $cons_equipo = "localhost";
 
@@ -91,7 +91,7 @@ $resultado = $obj_conexion->query($query);
             <?php endif; ?>
         </div>
         <div class="button-container">
-        <a href="http://localhost/HBARTOLO/#" class="button back-button">Volver</a>
+                    <a onclick="history.back()" class="button back-button">Volver</a>
     </div>
     </div>
 </body>

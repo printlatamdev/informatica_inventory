@@ -41,9 +41,9 @@
 	<?php
 // Datos de conexión a la base de datos
 $servername = "localhost";
-$username = "root";
-$password = "";
 $dbname = "asignacion_equipos";
+$username = "admin";
+$password = "AG784512";
 
 // Crear conexión
 $conn = new mysqli($servername, $username, $password, $dbname);

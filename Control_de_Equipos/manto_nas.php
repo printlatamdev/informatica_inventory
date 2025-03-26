@@ -1,7 +1,7 @@
 <?php
 // Conexión a la base de datos
-$cons_usuario = "root";
-$cons_contra = "";
+$cons_usuario = "admin";
+$cons_contra = "AG784512";
 $cons_base_datos = "asignacion_equipos";
 $cons_equipo = "localhost";
 

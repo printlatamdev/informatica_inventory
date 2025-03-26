@@ -94,7 +94,7 @@
         </form>
     </div>
     <div class="button-container">
-            <a href="http://localhost/HBARTOLO/#" class="button back-button">Volver</a>
+            <a onclick="history.back()" class="button back-button">Volver</a>
         </div>
 
 </body>
